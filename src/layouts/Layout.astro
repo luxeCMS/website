@@ -1,0 +1,40 @@
+---
+import "../styles/base.css";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta
+      name="description"
+      content="The first truly composable headless CMS built for the modular web. LuxeCMS will be the last CMS you'll ever need, for every project."
+    />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <link rel="preconnect" href="https://fonts.bunny.net" />
+    <link
+      href="https://fonts.bunny.net/css?family=genos:600"
+      rel="stylesheet"
+    />
+    <style is:inline>
+      ::-moz-selection {
+        color: #000;
+        background: #eeeeee;
+      }
+
+      ::selection {
+        color: #000;
+        background: #eeeeee;
+      }
+    </style>
+    <title>
+      LuxeCMS - The first truly composable headless CMS built for the modular
+      web.
+    </title>
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
