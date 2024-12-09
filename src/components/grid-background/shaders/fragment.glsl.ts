@@ -13,7 +13,6 @@ uniform float u_time;
 uniform float u_innerRadius;
 uniform float u_falloffPower;
 
-// Improved smoothstep function with customizable falloff
 float customSmoothstep(float edge0, float edge1, float x, float power) {
     float t = clamp((x - edge0) / (edge1 - edge0), 0.0, 1.0);
     return 1.0 - pow(1.0 - pow(t, power), power);
