@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        display: ["Genos", "sans-serif"],
+        display: ["edge-display", "sans-serif"],
       },
     },
   },
